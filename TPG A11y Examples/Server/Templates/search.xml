@@ -1,0 +1,47 @@
+<document>
+    <head>
+        <style>
+            .darkText {
+            tv-text-style: none;
+            text-align: left;
+            color: #FFFFFF;
+            font-size:36;
+            }
+            .darkText2 {
+            tv-text-style: none;
+            text-align: center;
+            color: #FFFFFF;
+            font-size:30;
+            }
+            .whitebackground {
+            tv-text-style: none;
+            background-color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <searchTemplate theme="dark">
+        <background>
+        <img src="http://localhost:9001/Server/Images/blueb.png" style="tv-align:center"/>
+        </background>
+        <searchField/>
+        <shelf>
+            <header>
+                <text class="darkText" style="font-weight:bold;">Popular tvOS components</text>
+            </header>
+            <section>
+                <lockup>
+                    <img src="http://localhost:9001/Server/Images/list.png" width="300" height="150" />
+                    <title class="darkText2">List</title>
+                </lockup>
+                <lockup>
+                    <img src="http://localhost:9001/Server/Images/button.png" width="300" height="150" />
+                    <title class="darkText2">Button</title>
+                </lockup>
+                <lockup>
+                    <img src="http://localhost:9001/Server/Images/shelf.png" width="300" height="150" />
+                    <title class="darkText2">Shelf</title>
+                </lockup>
+            </section>
+        </shelf>
+    </searchTemplate>
+</document>

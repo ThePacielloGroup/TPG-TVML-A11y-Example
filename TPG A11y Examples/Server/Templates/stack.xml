@@ -1,0 +1,89 @@
+<document>
+    <head>
+        <style>
+            .darkText {
+            tv-text-style: none;
+            text-align: left;
+            color: #FFFFFF;
+            font-size:36;
+            }
+            .darkText4 {
+            tv-text-style: none;
+            text-align: left;
+            color: #555555;
+            font-size:30;
+            font-weight: bold;
+            margin-bottom:15px;
+            }
+            .darkText3 {
+            text-align: center;
+            color: #000000;
+            font-size:44;
+            font-weight: bold;
+            margin-top:40px;
+            }
+            .whitebackground {
+            tv-text-style: none;
+            background-color: rgb(255, 255, 255);
+            }
+            .blacktext {
+            tv-text-style: none;
+            color: #000000;
+            }
+            .darkText2 {
+            tv-text-style: none;
+            text-align: center;
+            color: #444444;
+            font-size:30;
+            }
+        </style>
+    </head>
+    <stackTemplate theme="dark">
+        <background>
+        <img src="http://localhost:9001/Server/Images/whiteblogo.png" style="tv-align:center"/>
+        </background>
+        <banner>
+            <title class="darkText3">Stack Template</title>
+        </banner>
+        <collectionList>
+            <shelf>
+                <header>
+                    <text class="darkText4">tvOS Components</text>
+                </header>
+                <section>
+                    <lockup>
+                        <img src="http://localhost:9001/Server/Images/list.png" width="300" height="150" />
+                        <title class="darkText2">List</title>
+                    </lockup>
+                    <lockup>
+                        <img src="http://localhost:9001/Server/Images/button.png" width="300" height="150" />
+                        <title class="darkText2">Button</title>
+                    </lockup>
+                    <lockup>
+                        <img src="http://localhost:9001/Server/Images/shelf.png" width="300" height="150" />
+                        <title class="darkText2">Shelf</title>
+                    </lockup>
+                </section>
+            </shelf>
+            <shelf>
+                <header>
+                    <text class="darkText4">TPG Products</text>
+                </header>
+                <section>
+                    <lockup>
+                        <img src="http://localhost:9001/Server/Images/know.png" width="300" height="150" />
+                        <title class="darkText2">KnowledgeBase</title>
+                    </lockup>
+                    <lockup onselect="getDocument('Server/Templates/product.xml')">
+                        <img src="http://localhost:9001/Server/Images/arc.png" width="300" height="150" />
+                        <title class="darkText2">ARC Platform</title>
+                    </lockup>
+                    <lockup>
+                        <img src="http://localhost:9001/Server/Images/tutor.png" width="300" height="150" />
+                        <title class="darkText2">TPG Tutor</title>
+                    </lockup>
+                </section>
+            </shelf>
+        </collectionList>
+    </stackTemplate>
+</document>

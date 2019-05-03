@@ -1,0 +1,104 @@
+<document>
+    <head>
+        <style>
+            .darkText {
+            tv-text-style: none;
+            text-align: left;
+            color: #FFFFFF;
+            font-size:36;
+            font-weight:bold;
+            }
+            .darkText4 {
+            tv-text-style: none;
+            text-align: left;
+            color: #555555;
+            font-size:30;
+            font-weight: bold;
+            margin-bottom:15px;
+            }
+            .darkText3 {
+            text-align: center;
+            color: #000000;
+            font-size:44;
+            font-weight: bold;
+            margin-top:40px;
+            }
+            .whitebackground {
+            tv-text-style: none;
+            background-color: rgb(255, 255, 255);
+            }
+            .blacktext {
+            tv-text-style: none;
+            color: #000000;
+            }
+            .white {
+            color: #FFFFFF;
+            }
+            .darkText2 {
+            tv-text-style: none;
+            text-align: center;
+            color: #FFFFFF;
+            font-size:30;
+            }
+        </style>
+    </head>
+    <productTemplate theme="dark">
+        <background>
+        <img src="http://localhost:9001/Server/Images/blueb.png" style="tv-align:center"/>
+        </background>
+        <banner>
+            <infoList>
+                <info>
+                    <header>
+                        <title>Chief Architect</title>
+                    </header>
+                    <text>David O'Neil</text>
+                </info>
+                <info>
+                    <header>
+                        <title>Engineers</title>
+                    </header>
+                    <text>Aaron Smith</text>
+                    <text>Aaaron Kaminski</text>
+                    <text>Justin Stockton</text>
+                </info>
+            </infoList>
+            <stack>
+                <title>Arc Platform</title>
+                <row>
+                    <text><badge src="resource://tomato-fresh"/> 99%</text>
+                    <text>Accessibility Platform</text>
+                    <text>Web-based</text>
+                    <text>2019</text>
+                </row>
+                <description handlesOverflow ="true">ARC includes next generation automated testing. Our solution looks for machine-detectable accessibility defects within digital content. Designed for rapid scanning of a web domain, ARC will crawl through your website looking for accessibility violations against common standards, including WCAG 2.0 A/AA or Section 508. ARC is powerful. It takes scanning data and turns it into actionable insight. Need to know what pages have the highest density of certain types of accessibility defects? Need to track progress over time or compare the performance of different sites? Use ARC’s dashboards and data visualization features to guide you towards what you need to be concerned most about, and what you should fix first.</description>
+                <row>
+                    <buttonLockup>
+                        <badge src="resource://button-preview" />
+                        <title>Preview</title>
+                    </buttonLockup>
+                    <buttonLockup type="buy">
+                        <text>$$$$$</text>
+                        <title>Buy</title>
+                    </buttonLockup>
+                </row>
+            </stack>
+            <heroImg src="http://localhost:9001/Server/Images/arc2.png" accessibilityText="Arc Dashboard"/>
+        </banner>
+        <shelf>
+            <header>
+                <text class="darkText">Clients Also Purchased</text>
+            </header>
+            <section>
+                <lockup>
+                    <img src="http://localhost:9001/Server/Images/know.png" width="300" height="150" />
+                    <title class="darkText2">KnowledgeBase</title>
+                </lockup>
+                <lockup>
+                    <img src="http://localhost:9001/Server/Images/tutor.png" width="300" height="150" />
+                    <title class="darkText2">TPG Tutor</title>
+                </lockup>
+            </section>
+        </shelf>
+    </productTemplate>
+</document>

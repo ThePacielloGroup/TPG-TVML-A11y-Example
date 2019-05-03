@@ -1,0 +1,31 @@
+<document>
+    <head>
+        <style>
+            .customText {
+            tv-text-style: none;
+            tv-position: center;
+            color: red;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Courier;
+            }
+            .darkText {
+            tv-text-style: none;
+            color: #000000;
+            font-size:36;
+            }
+        </style>
+    </head>
+    <alertTemplate theme="light" style="background-color:rgb(255, 255, 255);">
+        <banner style="tv-position:header;">
+            <img src="http://localhost:9001/Server/Images/TPG_Logo_color.png" height="200" width="400" style="tv-align:center" accessibilityText="The Paciello Group"/>
+            <text class="darkText" style="font-weight:bold;">tvOS Accessibility Examples</text>
+        </banner>
+        <header>
+            <text class="darkText">Welcome</text>
+        </header>
+        <description style="font-size:24;">This application will show examples of accessible interfaces and interactions on the Apple TV system using native TVML templates. These examples will provide guidance for creating more accessible applications in this ecosystem. Please choose examples from the menu bar at the top of the page.</description>
+        <button style="background-color:rgb(102, 102, 102)" onselect="getDocument('Server/Templates/stack.xml')"><text>Go to first example</text></button>
+    </alertTemplate>
+</document>
+Ω

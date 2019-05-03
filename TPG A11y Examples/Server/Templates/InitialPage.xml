@@ -1,0 +1,31 @@
+<document>
+    <head>
+        <style>
+            .darkBack {
+            tv-text-style: none;
+            background-color: #2B2B2B;
+            }
+            .darkText {
+            tv-text-style: none;
+            color: #909090;
+            tv-hightlight-color: #FFFFFF
+            }
+        </style>
+    </head>
+    <menuBarTemplate theme="dark" class="darkBack">
+        <menuBar>
+            <menuItem id="navigation_home" selectTargetURL="Server/Templates/home.xml">
+                <title>Home</title>
+            </menuItem>
+            <menuItem id="navigation_genres" selectTargetURL="Server/Templates/stack.xml">
+                <title>stackTemplate</title>
+            </menuItem>
+            <menuItem id="navigation_product" selectTargetURL="Server/Templates/product.xml">
+                <title>productTemplate</title>
+            </menuItem>
+            <menuItem id="navigation_search" selectTargetURL="Server/Templates/search.xml">
+                <title>Search</title>
+            </menuItem>
+        </menuBar>
+    </menuBarTemplate>
+</document>

@@ -1,0 +1,44 @@
+<document>
+    <listTemplate>
+        <banner>
+            <title>Johnny Appleseed's Movie Collection</title>
+        </banner>
+        <list>
+            <header>
+                <title>Favorite Movies</title>
+            </header>
+            <section>
+                <listItemLockup>
+                    <title>Movie 1</title>
+                    <relatedContent>
+                        <lockup>
+                            <img src="path to images on your server/Car_Movie_1920x1080.png" width="857" height="482" />
+                            <title>Movie 1</title>
+                            <description>A brief description for the first movie should go here.</description>
+                        </lockup>
+                    </relatedContent>
+                </listItemLockup>
+                <listItemLockup>
+                    <title>Movie 2</title>
+                    <relatedContent>
+                        <lockup>
+                            <img src="path to images on your server/Car_Movie_800x600.png" width="857" height="482" />
+                            <title>Movie 2</title>
+                            <description>A brief description for the second movie should go here.</description>
+                        </lockup>
+                    </relatedContent>
+                </listItemLockup>
+                <listItemLockup>
+                    <title>Movie 3</title>
+                    <relatedContent>
+                        <lockup>
+                            <img src="path to images on your server/Car_Movie_720x720.png" width="857" height="482" />
+                            <title>Movie 3</title>
+                            <description>A brief description for the third movie should go here.</description>
+                        </lockup>
+                    </relatedContent>
+                </listItemLockup>
+            </section>
+        </list>
+    </listTemplate>
+</document>
